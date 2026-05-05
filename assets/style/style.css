@@ -34,7 +34,7 @@
     text-align: center;
     /* Pagina 3 Abaixo */
 }
-.P3 {
+#P3 {
     background-color: #ffffff; 
     display: flex;
     justify-content: center;
