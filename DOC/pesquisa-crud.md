@@ -18,10 +18,11 @@ O PHP executa esses comandos automaticamente, sem que o usuário veja.
 ## Onde isso aparece no dia a dia
 Esse tipo de funcionamento está em praticamente qualquer sistema que você usa. Quando você faz login em um site, edita seu perfil, posta algo ou apaga uma informação, tem um CRUD rodando por trás.
 Mesmo sistemas simples, como um cadastro de alunos ou uma lista de produtos, usam exatamente essa lógica.
-## Por que aprender CRUD em PHP é importante
 
+## Por que aprender CRUD em PHP é importante
 Aprender a fazer CRUD em PHP é um dos primeiros passos para quem quer criar sistemas completos. Isso porque praticamente todo sistema precisa lidar com dados.
 Além disso, entender isso ajuda você a perceber como os sites realmente funcionam, e não só a parte visual.
+
 ## Conclusão
 No fim, fazer CRUD em PHP é transformar aquelas quatro ações básicas — criar, ver, editar e apagar — em algo que funciona de verdade dentro de um sistema. O PHP faz a ligação entre o usuário e o banco de dados, garantindo que tudo seja salvo, exibido e atualizado corretamente.
 
