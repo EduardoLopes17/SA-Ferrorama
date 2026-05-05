@@ -1,3 +1,6 @@
+
+/* Pagina 2 Abaixo */
+
 #P2{
     background-color: #a9b2bb;
     display: flex;
@@ -6,13 +9,14 @@
     height: 100vh;
     margin: 0;
 }
-
 #P22{
     background: rgb(255, 255, 255);
     padding: 30px;
     border-radius: 8px;
     width: 100%;
     max-width: 400px;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 .col-sm-2, .col-sm-10 {
     width: 100% ; 
@@ -26,10 +30,31 @@
     margin-top: 10px;
     font-size: 16px;
 }
-label {
-    font-weight: bold;
-    margin-bottom: 5px;
-}
 .New{
+    text-align: center;
+    /* Pagina 3 Abaixo */
+}
+.P3 {
+    background-color: #ffffff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container3 {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
+    width: 100%;
+    max-width: 900px; 
+    
+}
+#h13, #p13 {
+    text-align: center;
+}
+.col-12{
+    display: block;
     text-align: center;
 }
