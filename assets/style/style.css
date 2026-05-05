@@ -9,14 +9,18 @@
     height: 100vh;
     margin: 0;
 }
-#P22{
-    background: rgb(82, 80, 80);
-    padding: 30px;
-    border-radius: 8px;
+.container2{
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    border-radius: 10px; 
+    box-shadow: 0 10px 25px rgba(22, 126, 13, 0.1);  
+    margin-left: auto;  
+    margin-right: 145px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 450px; 
     width: 100%;
-    max-width: 400px;
-    font-weight: bold;
-    margin-bottom: 5px;
 }
 .col-sm-2, .col-sm-10 {
     width: 100% ; 
@@ -24,16 +28,10 @@
     padding-right: 0 ;
     display: block ;
 }
-.Button2 {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    font-size: 16px;
-}
 .New{
     text-align: center;
-    /* Pagina 3 Abaixo */
 }
+/* Pagina 3 Abaixo */
 #P3 {
     background-color: #ffffff; 
     display: flex;
@@ -41,15 +39,20 @@
     align-items: center;
     min-height: 100vh;
     margin: 0;
+    padding: 60px 0;
 }
 .container3 {
     background-color: white;
     padding: 40px;
-    border-radius: 12px; 
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
-    width: 100%;
-    max-width: 900px; 
-    
+    border-radius: 10px; 
+    box-shadow: 0 10px 25px rgba(33, 216, 16, 0.1); 
+    max-width: 650px; 
+    margin-left: auto;  
+    margin-right: 145px;  
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #h13, #p13 {
     text-align: center;
@@ -57,4 +60,8 @@
 .col-12{
     display: block;
     text-align: center;
+}
+.container3 form{
+    width: 100%;
+    justify-content: center;
 }
