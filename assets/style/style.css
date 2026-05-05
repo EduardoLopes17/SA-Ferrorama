@@ -2,7 +2,7 @@
 /* Pagina 2 Abaixo */
 
 #P2{
-    background-color: #ffffff;
+    background-color: #393737;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@
 }
 /* Pagina 3 Abaixo */
 #P3 {
-    background-color: #ffffff; 
+    background-color:#393737; 
     display: flex;
     justify-content: center;
     align-items: center;
