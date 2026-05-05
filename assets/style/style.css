@@ -2,7 +2,7 @@
 /* Pagina 2 Abaixo */
 
 #P2{
-    background-color: #a9b2bb;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@
     margin: 0;
 }
 #P22{
-    background: rgb(255, 255, 255);
+    background: rgb(82, 80, 80);
     padding: 30px;
     border-radius: 8px;
     width: 100%;
