@@ -7,35 +7,38 @@
     <link rel="stylesheet" href="../assets/style/style.css">
 </head>
 <body id="P2">
-    <div class="container2">
 
-    <h1 id="h13">Login</h1>
-        <p id="p13">Acesse sua conta.</p>
-        
-        <form class="row g-3">
-            <div class="Login">
-                <label for="Email1" class="col-sm-2 col-form-label">Email</label>
-                <div class="col-sm-10">
-                    <input type="email" class="form-control" id="Email1" placeholder="Digite seu email">
-                </div> 
+    <div class="container-principal">
+        <div class="lado-esquerdo">
+            <div class="logo-circulo">
+                <img src="../assets/img/icone trem.png" alt="Logo Ferrovia">
             </div>
-            
-            <div class="Login">
-                <label for="Senha1" class="col-sm-2 col-form-label">Senha</label>
-                <div class="col-sm-10">
-                    <input type="password" class="form-control" id="Senha1" placeholder="Digite sua senha">
-                </div>
-            </div>
-            
-            <div class="New">
-                <p class="text-muted small"> Não tem uma conta? 
-                    <a href="#" class="text-decoration-none fw-bold text-primary">Cadastre-se aqui</a>
-                </p>
-            </div>
-            
-            <button type="submit" class="btn btn-primary">Entrar</button>
         </div>
-</form>
+
+        <div class="lado-direito">
+            <div class="login-box">
+                <h1 id="h13">LOGIN</h1>
+                
+                <form>
+                    <div class="mb-3">
+                        <label for="Email1" class="form-label">Usuário</label>
+                        <input type="email" class="form-control custom-input" id="Email1" placeholder="seu_usuario">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="Senha1" class="form-label">Senha</label>
+                        <input type="password" class="form-control custom-input" id="Senha1" placeholder="********">
+                    </div>
+                    
+                    <button type="submit" class="btn-entrar">Entrar</button>
+                    
+                    <div class="mt-3 text-center">
+                        <a href="#" class="signup-link">Criar novo Cadastro</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>

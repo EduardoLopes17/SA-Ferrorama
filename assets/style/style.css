@@ -1,36 +1,88 @@
 
 /* Pagina 2 Abaixo */
 
-#P2{
-    background-color: #393737;
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-principal {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Esquerda */
+.lado-esquerdo {
+    flex: 1;
+    background-color: #d98c4a;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
 }
-.container2{
-    background-color: rgb(255, 255, 255);
-    padding: 40px;
-    border-radius: 10px; 
-    box-shadow: 0 10px 25px rgba(22, 126, 13, 0.1);  
-    margin-left: auto;  
-    margin-right: 145px;  
+
+.logo-circulo {
+    width: 300px;
+    height: 300px;
+    background-color: #a0522d; /* Marrom do círculo */
+    border: 8px solid #8b4513;
+    border-radius: 50%;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    max-width: 450px; 
-    width: 100%;
 }
-.col-sm-2, .col-sm-10 {
-    width: 100% ; 
-    padding-left: 0 ;
-    padding-right: 0 ;
-    display: block ;
+
+/* Direita */
+.lado-direito {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
 }
-.New{
+
+/* Caixa com borda preta do login */
+.login-box {
+    border: 2px;
+    padding: 40px;
+    width: 380px;
+}
+
+.login-box h1 {
     text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
+
+.custom-input {
+    background-color: #f2ede9;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 20px;
+}
+
+/* Botão Cinza */
+.btn-entrar {
+    width: 100%;
+    background-color: #b0b0b0;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Link Azul */
+.signup-link {
+    color: #0000ff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
 /* Pagina 3 Abaixo */
 #P3 {
     background-color:#393737; 
