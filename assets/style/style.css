@@ -136,3 +136,13 @@ nav{
     text-align: center;
 }
 
+.login-box label {
+    display: block;
+    text-align: left;
+    margin-left: 10px; 
+}
+
+.login-box {
+    max-height: 90vh;
+    overflow-y: auto; 
+}
