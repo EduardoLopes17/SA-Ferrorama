@@ -1,6 +1,53 @@
+/* Pagina 1 Abaixo */
+#P1{
+    margin: 0;
+    padding: 0px;
+    background: #f3f3f3;
+
+}
+nav{
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: rgb(44, 44, 44);
+   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 0 20px;
+}
+#icon{
+    width: 130px;
+}
+.Botoes1{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Pagina 2 Abaixo */
-
 #P2{
     background-color: #393737;
     display: flex;
