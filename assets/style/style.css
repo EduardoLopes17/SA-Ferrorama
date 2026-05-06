@@ -1,7 +1,30 @@
+/* Pagina 1 Abaixo */
+#P1{
+    margin: 0;
+    padding: 0px;
+    background: #f3f3f3;
 
+}
+nav{
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: rgb(44, 44, 44);
+   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 0 20px;
+}
+#icon{
+    width: 130px;
+}
+.Botoes1{
+    display: flex;
+    gap: 10px;
+}
 /* Pagina 2 Abaixo */
 
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +37,6 @@
     width: 100%;
 }
 
-/* Esquerda */
 .lado-esquerdo {
     flex: 1;
     background-color: #d98c4a;
@@ -26,15 +48,12 @@
 .logo-circulo {
     width: 300px;
     height: 300px;
-    background-color: #a0522d; /* Marrom do círculo */
-    border: 8px solid #8b4513;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Direita */
 .lado-direito {
     flex: 1;
     background-color: white;
@@ -44,7 +63,6 @@
     position: relative; 
 }
 
-/* Caixa com borda preta do login */
 .login-box {
     border: 2px;
     padding: 40px;
@@ -64,7 +82,6 @@
     padding: 12px 20px;
 }
 
-/* Botão Cinza */
 .btn-entrar {
     width: 100%;
     background-color: #b0b0b0;
@@ -74,8 +91,6 @@
     font-size: 1.5rem;
     cursor: pointer;
 }
-
-/* Link Azul */
 .signup-link {
     color: #0000ff;
     text-decoration: none;
