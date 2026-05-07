@@ -32,8 +32,8 @@
 }
 .New{
     text-align: center;
-    /* Pagina 3 Abaixo */
 }
+/* Pagina 3 Abaixo */
 #P3 {
     background-color: #ffffff; 
     display: flex;
@@ -41,6 +41,9 @@
     align-items: center;
     min-height: 100vh;
     margin: 0;
+    background-image: url(../img/imagem\ fundo2.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
 }
 .container3 {
     background-color: white;
