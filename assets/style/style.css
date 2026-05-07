@@ -20,6 +20,7 @@ nav{
     width: 130px;
 }
 
+
 .nav-item{
     background-color:  #d98c4a;
     width: 80px;
@@ -35,7 +36,11 @@ nav{
 .main-nav{
     background-color:#d98c4a; 
 }
-
+.carousel-item{
+    height: 100%;
+    width: 100%;
+   
+}
 /* Pagina 2 Abaixo */
 * {
     margin: 0;
