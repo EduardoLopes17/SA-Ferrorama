@@ -1,58 +1,153 @@
+/* Pagina 1 Abaixo */
+#P1{
+    margin: 0;
+    padding: 0px;
+    background: #f3f3f3;
 
+}
+nav{
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: rgb(44, 44, 44);
+   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 0 20px;
+}
+#icon{
+    width: 130px;
+}
+
+
+.nav-item{
+    background-color:  #d98c4a;
+    width: 80px;
+    color: white;
+    padding-left: 30px;     
+    padding-right: 30px;
+    border: none;    
+    height: 60px;  
+    white-space: nowrap;     
+             
+    
+}
+.main-nav{
+    background-color:#d98c4a; 
+}
+.carousel-item{
+    height: 100%;
+    width: 100%;
+   
+}
 /* Pagina 2 Abaixo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-#P2{
-    background-color: #ffffff;
+.container-principal {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.lado-esquerdo {
+    flex: 1;
+    background-color: #d98c4a;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
 }
-#P22{
-    background: rgb(82, 80, 80);
-    padding: 30px;
-    border-radius: 8px;
-    width: 100%;
-    max-width: 400px;
-    font-weight: bold;
-    margin-bottom: 5px;
+
+.logo-circulo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.col-sm-2, .col-sm-10 {
-    width: 100% ; 
-    padding-left: 0 ;
-    padding-right: 0 ;
-    display: block ;
+
+.lado-direito {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
 }
-.Button2 {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    font-size: 16px;
+
+.login-box {
+    border: 2px;
+    padding: 40px;
+    width: 420px;
 }
-.New{
+
+.login-box h1 {
     text-align: center;
+<<<<<<< HEAD
 }
+=======
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.custom-input {
+    background-color: #f2ede9;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 20px;
+}
+
+.btn-entrar {
+    width: 100%;
+    background-color: #d17a08;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 100px;
+}
+.signup-link {
+    color: #0000ff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+>>>>>>> 75a99e561f2faf77374fbf3bd554598b8c2a07ad
 /* Pagina 3 Abaixo */
 #P3 {
-    background-color: #ffffff; 
+    background-color:#393737; 
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
+<<<<<<< HEAD
     background-image: url(../img/imagem\ fundo2.jpg);
     background-repeat:no-repeat;
     background-size: cover;
+=======
+    padding: 60px 0;
+>>>>>>> 75a99e561f2faf77374fbf3bd554598b8c2a07ad
 }
 .container3 {
     background-color: white;
     padding: 40px;
-    border-radius: 12px; 
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
-    width: 100%;
-    max-width: 900px; 
-    
+    border-radius: 10px; 
+    box-shadow: 0 10px 25px rgba(33, 216, 16, 0.1); 
+    max-width: 650px; 
+    margin-left: auto;  
+    margin-right: 145px;  
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #h13, #p13 {
     text-align: center;
@@ -60,4 +155,22 @@
 .col-12{
     display: block;
     text-align: center;
+}
+.container3 form{
+    width: 100%;
+    justify-content: center;
+}
+.New{
+    text-align: center;
+}
+
+.login-box label {
+    display: block;
+    text-align: left;
+    margin-left: 10px; 
+}
+
+.login-box {
+    max-height: 90vh;
+    overflow-y: auto; 
 }
