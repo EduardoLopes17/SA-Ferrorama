@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SA Ferrorama</title>
     <link rel="stylesheet" href="../SA-Ferrorama/assets/style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 
@@ -19,7 +20,7 @@
         </nav>
     </header>
 
-    <nav id="botoes"class="main-nav">
+    <nav id="botoes" class="main-nav">
         <button class="nav-item active" onclick="mostrarConteudo()">Home</button>
         <button class="nav-item" onclick="mostrarConteudo('dashboard')">Dashboard</button>
         <button class="nav-item" onclick="mostrarConteudo('cadastro')">Cadastrar Sensores</button>
@@ -33,8 +34,32 @@
 
 
     <div id="home" class="content active">
-        <h2>Home</h2>
-        <p>Bem-vindo ao Sistema de Monitoramento!</p>
+        <br>
+        <br>
+        <center><h2>HOME</h2>
+        <br>
+        <br>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../SA-Ferrorama/assets/img/imagem_trilho.Home.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </div>
 
     <div id="dashboard" class="content">
