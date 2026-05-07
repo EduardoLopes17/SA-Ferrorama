@@ -11,59 +11,70 @@
 <body id="P1">
     <header>
         <nav>
+
             <img id="icon" src="../SA-Ferrorama/assets/img/icone trem.png" alt="Ícone Ferrorama">
             <h1>Ferrovia União HELG </h1>
+            <img id="icon" src="../SA-Ferrorama/assets/img/icone trem.png" alt="Ícone Ferrorama">
 
-            <div class="Botoes1">
-                <button>Entrar</button>
-                <button>Cadastrar</button>
-            </div>
         </nav>
     </header>
-    
-    <nav class="main-nav">
-        <button class="nav-item active" onclick="mostrarConteudo('home')">Home</button>
+
+    <nav id="botoes"class="main-nav">
+        <button class="nav-item active" onclick="mostrarConteudo()">Home</button>
         <button class="nav-item" onclick="mostrarConteudo('dashboard')">Dashboard</button>
         <button class="nav-item" onclick="mostrarConteudo('cadastro')">Cadastrar Sensores</button>
         <button class="nav-item" onclick="mostrarConteudo('gerenciar')">Gerenciar Sensores</button>
-        <button class="nav-item" onclick="mostrarConteudo('alertas')">Monitorar Alertas e Falhas</button>
+        <button class="nav-item" onclick="mostrarConteudo('Monitora')">Monitorar trens</button>
+        <button class="nav-item" onclick="mostrarConteudo('alertas')"> Alertas Falhas</button>
         <button class="nav-item" onclick="mostrarConteudo('relatorios')">Relatórios</button>
+        <button class="nav-item" onclick="mostrarConteudo('cadastro')">Cadastro</button>
         <button class="nav-item logout" onclick="sair()">Sair</button>
     </nav>
- 
-    
+
+
     <div id="home" class="content active">
         <h2>Home</h2>
         <p>Bem-vindo ao Sistema de Monitoramento!</p>
     </div>
- 
+
     <div id="dashboard" class="content">
         <h2>Dashboard</h2>
         <p>Conteúdo do dashboard aqui</p>
     </div>
- 
+
     <div id="cadastro" class="content">
         <h2>Cadastrar Sensores</h2>
         <p>Conteúdo do cadastro aqui</p>
     </div>
- 
+
     <div id="gerenciar" class="content">
         <h2>Gerenciar Sensores</h2>
         <p>Conteúdo do gerenciamento aqui</p>
     </div>
- 
+
     <div id="alertas" class="content">
         <h2>Monitorar Alertas e Falhas</h2>
         <p>Conteúdo dos alertas aqui</p>
     </div>
- 
+
     <div id="relatorios" class="content">
         <h2>Relatórios</h2>
         <p>Conteúdo dos relatórios aqui</p>
     </div>
- 
-    <script src="script.js"></script>
- 
+
+    <div id="sair" class="content">
+
+        <h2>Sair</h2>
+        <p>Sua sessão será encerrada e você sera redirecionado na tela de login!</p>
+
+        <button onclick="encerrarSessao()">Confirmar </button>
+        <button onclick="document.getElementById('sair').style.display='none'">Cancelar</button>
+
+
+    </div>
+
+    <script src="script/botoes.js"></script>
+
 
 </body>
 
