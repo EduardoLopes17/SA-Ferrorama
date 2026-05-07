@@ -23,8 +23,8 @@ nav{
     display: flex;
     gap: 10px;
 }
-/* Pagina 2 Abaixo */
 
+/* Pagina 2 Abaixo */
 * {
     margin: 0;
     padding: 0;
@@ -84,12 +84,13 @@ nav{
 
 .btn-entrar {
     width: 100%;
-    background-color: #b0b0b0;
+    background-color: #d17a08;
     color: white;
     border: none;
     padding: 15px;
     font-size: 1.5rem;
     cursor: pointer;
+    border-radius: 100px;
 }
 .signup-link {
     color: #0000ff;
