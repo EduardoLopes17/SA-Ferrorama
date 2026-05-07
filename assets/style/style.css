@@ -19,9 +19,21 @@ nav{
 #icon{
     width: 130px;
 }
-.Botoes1{
-    display: flex;
-    gap: 10px;
+
+.nav-item{
+    background-color:  #d98c4a;
+    width: 80px;
+    color: white;
+    padding-left: 30px;     
+    padding-right: 30px;
+    border: none;    
+    height: 60px;  
+    white-space: nowrap;     
+             
+    
+}
+.main-nav{
+    background-color:#d98c4a; 
 }
 
 /* Pagina 2 Abaixo */
