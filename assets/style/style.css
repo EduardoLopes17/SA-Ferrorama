@@ -36,10 +36,26 @@ nav{
 .main-nav{
     background-color:#d98c4a; 
 }
-.carousel-item{
+
+#carouselExampleIndicators {
+    max-width: 1100px;
+    margin: 30px auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.carousel-item {
+    height: 550px;
+}
+
+.carousel-item img {
+    object-fit: cover;
     height: 100%;
-    width: 100%;
-   
+}
+.H222{
+    
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /* Pagina 2 Abaixo */
 * {
@@ -88,12 +104,8 @@ nav{
 
 .login-box h1 {
     text-align: center;
-<<<<<<< HEAD
 }
-=======
-    font-weight: bold;
-    margin-bottom: 30px;
-}
+
 
 .custom-input {
     background-color: #f2ede9;
@@ -119,7 +131,6 @@ nav{
     font-size: 0.9rem;
 }
 
->>>>>>> 75a99e561f2faf77374fbf3bd554598b8c2a07ad
 /* Pagina 3 Abaixo */
 #P3 {
     background-color:#393737; 
@@ -128,14 +139,12 @@ nav{
     align-items: center;
     min-height: 100vh;
     margin: 0;
-<<<<<<< HEAD
-    background-image: url(../img/imagem\ fundo2.jpg);
+    background-image: url(./img/imagem\ fundo2.jpg);
     background-repeat:no-repeat;
     background-size: cover;
-=======
     padding: 60px 0;
->>>>>>> 75a99e561f2faf77374fbf3bd554598b8c2a07ad
 }
+
 .container3 {
     background-color: white;
     padding: 40px;
@@ -174,3 +183,10 @@ nav{
     max-height: 90vh;
     overflow-y: auto; 
 }
+.content{
+    display: none;
+}
+.content.active{
+    display: block;
+}
+

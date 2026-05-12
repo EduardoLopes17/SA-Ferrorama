@@ -30,37 +30,39 @@
         <button class="nav-item" onclick="mostrarConteudo('alertas')"> Alertas Falhas</button>
         <button class="nav-item" onclick="mostrarConteudo('relatorios')">Relatórios</button>
         <button class="nav-item" onclick="mostrarConteudo('cadastro2')">Cadastro</button>
-        <button class="nav-item logout" onclick="sair()">Sair</button>
+        <button class="nav-item logout" onclick="sair('sair')">Sair</button>
     </nav>
 
 
     <div id="home" class="content active">
         <br>
-        <br>
-        <center>
-            <h2>HOME</h2>
-            <br>
-            <br>
+       
+            <h2 class="H222">BEM VINDO A FERROVIA UNIÃO HELG</h2>
+            <p class="H222"     >A melhor plataforma de monitoramento do MUNDO</p>
+
             <div id="carouselExampleIndicators" class="carousel slide">
                 <div class="carousel-indicators">
+
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                         class="active" aria-current="true" aria-label="Slide 1"></button>
+
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
+
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="../SA-Ferrorama/assets/img/tre-bala cidade. Home.jpeg" class="d-block w-100"
+                        <img src="./assets/img/tre-bala cidade. Home.jpeg" class="d-block w-100"
                             alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="../SA-Ferrorama/assets/img/trem- bala moderno. Home.jpg" class="d-block w-100"
+                        <img src="./assets/img/trem- bala moderno. Home.jpg" class="d-block w-100"
                             alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="../SA-Ferrorama/assets/img/trem- bala tunel. Home.jpg" class="d-block w-100"
+                        <img src="./assets/img/trem- bala tunel. Home.jpg" class="d-block w-100"
                             alt="...">
                     </div>
                 </div>
@@ -92,7 +94,7 @@
         <p>Conteúdo do gerenciamento aqui</p>
     </div>
 
-    <div id="Monitora" class="content">
+    <div id="monitora" class="content">
         <h2>Monitorar Alertas e Falhas</h2>
         <p>Conteúdo dos alertas aqui</p>
     </div>
@@ -144,7 +146,8 @@
 
     </div>
 
-    <div>
+    <div id="sair" class="content">
+
         <ul class="nav">
             <h2>Sair</h2>
             <h4>Sair do Sistem?</h4>
@@ -152,8 +155,8 @@
 
 
             <div class="botoes-container">
-                <a class="nav-link active" href="../SA-Ferrorama/public/login.html"
-                    style="color: red; font-weight: bold;">Confirmar</a>
+                <a class="nav-link active" href="./public/login.html"
+                    style="color: rgba(189, 17, 17, 0.288); font-weight: bold;">Confirmar</a>
 
                 <a class="nav-link" href="#" onclick="window.history.back()">Cancelar</a>
             </div>
