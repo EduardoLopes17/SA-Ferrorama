@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SA Ferrorama</title>
-    <link rel="stylesheet" href="../SA-Ferrorama/assets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
@@ -14,19 +14,19 @@
     <header>
         <nav>
 
-            <img id="icon" src="../SA-Ferrorama/assets/img/icone trem.png" alt="Ícone Ferrorama">
+            <img id="icon" src="./assets/img/icone trem.png" alt="Ícone Ferrorama">
             <h1>Ferrovia União HELG </h1>
-            <img id="icon" src="../SA-Ferrorama/assets/img/icone trem.png" alt="Ícone Ferrorama">
+            <img id="icon" src="./assets/img/icone trem.png" alt="Ícone Ferrorama">
 
         </nav>
     </header>
 
     <nav id="botoes" class="main-nav">
-        <button class="nav-item active" onclick="mostrarConteudo()">Home</button>
+        <button class="nav-item active" onclick="mostrarConteudo('home')">Home</button>
         <button class="nav-item" onclick="mostrarConteudo('dashboard')">Dashboard</button>
         <button class="nav-item" onclick="mostrarConteudo('cadastro')">Cadastrar Sensores</button>
         <button class="nav-item" onclick="mostrarConteudo('gerenciar')">Gerenciar Sensores</button>
-        <button class="nav-item" onclick="mostrarConteudo('Monitora')">Monitorar trens</button>
+        <button class="nav-item" onclick="mostrarConteudo('monitora')">Monitorar trens</button>
         <button class="nav-item" onclick="mostrarConteudo('alertas')"> Alertas Falhas</button>
         <button class="nav-item" onclick="mostrarConteudo('relatorios')">Relatórios</button>
         <button class="nav-item" onclick="mostrarConteudo('cadastro2')">Cadastro</button>
@@ -52,14 +52,16 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="../SA-Ferrorama/assets/img/tre-bala cidade. Home.jpeg" class="d-block w-100" alt="...">
+                        <img src="../SA-Ferrorama/assets/img/tre-bala cidade. Home.jpeg" class="d-block w-100"
+                            alt="...">
                     </div>
                     <div class="carousel-item">
                         <img src="../SA-Ferrorama/assets/img/trem- bala moderno. Home.jpg" class="d-block w-100"
                             alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="../SA-Ferrorama/assets/img/trem- bala tunel. Home.jpg" class="d-block w-100" alt="...">
+                        <img src="../SA-Ferrorama/assets/img/trem- bala tunel. Home.jpg" class="d-block w-100"
+                            alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -104,29 +106,62 @@
         <h2>Relatórios</h2>
         <p>Conteúdo dos relatórios aqui</p>
     </div>
-    
+
     <div id="cadastro2" class="content">
-        <h2>Relatórios</h2>
-        <p>Conteúdo dos relatórios aqui</p>
+        <h2>Cadastro de Usuario</h2>
+        <p>Conteúdo dos Cadastrados aqui</p>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Usuário</th>
+                    <th scope="col">Cpf</th>
+                    <th scope="col">Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>182.986.976-18</td>
+                    <td>@gmail</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>145.347.869-09</td>
+                    <td>@gmail</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>John</td>
+                    <td>172.987.735-78</td>
+                    <td>@gmail</td>
+                </tr>
+            </tbody>
+        </table>
+
     </div>
 
     <div>
-    <ul class="nav">
-        <h2>Sair</h2>
-        <h4>Sair do Sistem?</h4>
-        <p>Sua sessão será encerrada e você será redirecionado para a tela de login!</p>
+        <ul class="nav">
+            <h2>Sair</h2>
+            <h4>Sair do Sistem?</h4>
+            <p>Sua sessão será encerrada e você será redirecionado para a tela de login!</p>
 
-        
-        <div class="botoes-container">
-            <a class="nav-link active" href="../SA-Ferrorama/public/login.html" style="color: red; font-weight: bold;">Confirmar</a>
-            
-            <a class="nav-link" href="#" onclick="window.history.back()">Cancelar</a>
-        </div>
-    </ul>
-</div>
-  
 
-    <script src="script/botoes.js"></script>
+            <div class="botoes-container">
+                <a class="nav-link active" href="../SA-Ferrorama/public/login.html"
+                    style="color: red; font-weight: bold;">Confirmar</a>
+
+                <a class="nav-link" href="#" onclick="window.history.back()">Cancelar</a>
+            </div>
+        </ul>
+    </div>
+
+
+    <script src="./script/botoes.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
