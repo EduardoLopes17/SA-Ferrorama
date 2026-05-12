@@ -2,7 +2,7 @@
  
 ## Estrutura de Pastas
  
-![logo do Projeto](img/README.png)
+![Logo do Projeto](assets/img/README.png)
 
  
 ## 🎯 O Que Cada Um Faz
