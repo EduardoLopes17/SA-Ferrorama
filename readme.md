@@ -5,7 +5,7 @@
 ![Logo do Projeto](assets/img/README.png)
 
  
-## 🎯 O Que Cada Um Faz
+##  O Que Cada Um Faz
  
 ### Eduardo (Líder)
 **O que mexe:**
@@ -29,11 +29,11 @@
 **O que mexe:**
 - Testa tudo
 - Ajuda em tudo
-**Exemplo:** Testa se o botão funciona em todos os navegadores
+**Exemplo:** Testa se o botão funciona em todos os navegadores, faz as pesquisas e ajuda a revisar os codigos
  
 ---
  
-## 📝 Como Nomear Arquivos
+##  Como Nomear Arquivos
  
 ###  Certo:
  
@@ -100,7 +100,7 @@ foto.jpg (nome vago)
 | Pessoa | Função | Pasta Principal |
 |--------|--------|-----------------|
 | Eduardo | Líder + Backend | Servidor/Banco |
-| Hugo | Ajuda | Testes + Ajuda |
+| Hugo | Ajuda + Pesquisas| Testes + Revisao |
 | Guilherme | Frontend | `public/` + `style/` |
 | Luis | Código Geral | Tudo | 
  
