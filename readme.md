@@ -29,7 +29,7 @@
 **O que mexe:**
 - Testa tudo
 - Ajuda em tudo
-**Exemplo:** Testa se o botão funciona em todos os navegadores, faz as pesquisas e ajuda a revisar os codigos
+**Exemplo:** Testa se o botão funciona em todos os navegadores, faz as pesquisas e ajuda a revisar os códigos
  
 ---
  
