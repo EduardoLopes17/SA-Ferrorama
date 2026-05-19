@@ -14,9 +14,9 @@
     <header>
         <nav>
 
-            <img id="icon" src="./assets/img/icone trem.png" alt="Ícone Ferrorama">
+            <img class="icon" src="./assets/img/icone trem.png" alt="Ícone Ferrorama">
             <h1>Ferrovia União HELG </h1>
-            <img id="icon" src="./assets/img/icone trem.png" alt="Ícone Ferrorama">
+            <img class="icon" src="./assets/img/icone trem.png" alt="Ícone Ferrorama">
 
         </nav>
     </header>
@@ -30,37 +30,39 @@
         <button class="nav-item" onclick="mostrarConteudo('alertas')"> Alertas Falhas</button>
         <button class="nav-item" onclick="mostrarConteudo('relatorios')">Relatórios</button>
         <button class="nav-item" onclick="mostrarConteudo('cadastro2')">Cadastro</button>
-        <button class="nav-item logout" onclick="sair()">Sair</button>
+        <button class="nav-item logout" onclick="mostrarConteudo('sair')">Sair</button>
     </nav>
 
 
     <div id="home" class="content active">
         <br>
-        <br>
-        <center>
-            <h2>HOME</h2>
-            <br>
-            <br>
+       
+            <h2 class="H222">BEM VINDO A FERROVIA UNIÃO HELG</h2>
+            <p class="H222">A melhor plataforma de monitoramento do MUNDO</p>
+
             <div id="carouselExampleIndicators" class="carousel slide">
                 <div class="carousel-indicators">
+
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                         class="active" aria-current="true" aria-label="Slide 1"></button>
+
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
+
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="../SA-Ferrorama/assets/img/tre-bala cidade. Home.jpeg" class="d-block w-100"
+                        <img src="./assets/img/tre-bala cidade. Home.jpeg" class="d-block w-100"
                             alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="../SA-Ferrorama/assets/img/trem- bala moderno. Home.jpg" class="d-block w-100"
+                        <img src="./assets/img/trem- bala moderno. Home.jpg" class="d-block w-100"
                             alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="../SA-Ferrorama/assets/img/trem- bala tunel. Home.jpg" class="d-block w-100"
+                        <img src="./assets/img/trem- bala tunel. Home.jpg" class="d-block w-100"
                             alt="...">
                     </div>
                 </div>
@@ -92,9 +94,8 @@
         <p>Conteúdo do gerenciamento aqui</p>
     </div>
 
-    <div id="Monitora" class="content">
-        <h2>Monitorar Trens</h2>
-        <p>Conteúdo dos alertas aqui</p>
+    <div id="monitora" class="content">
+        <h2>Monitorar trens</h2>
     </div>
 
     <div id="alertas" class="content">
@@ -123,41 +124,36 @@
             <tbody>
                 <tr>
                     <th scope="row">1</th>
-                    <td>Mark</td>
+                    <td>Julio</td>
                     <td>182.986.976-18</td>
-                    <td>@gmail</td>
+                    <td>julioferraz@gmail</td>
                 </tr>
                 <tr>
                     <th scope="row">2</th>
-                    <td>Jacob</td>
+                    <td>Bruno</td>
                     <td>145.347.869-09</td>
-                    <td>@gmail</td>
+                    <td>brunolion@gmail</td>
                 </tr>
                 <tr>
                     <th scope="row">3</th>
-                    <td>John</td>
+                    <td>Alisson</td>
                     <td>172.987.735-78</td>
-                    <td>@gmail</td>
+                    <td>alissongfernandez@gmail</td>
                 </tr>
             </tbody>
         </table>
 
     </div>
 
-    <div>
-        <ul class="nav">
-            <h2>Sair</h2>
-            <h4>Sair do Sistem?</h4>
+    <div id="sair" class="content">
+
+            <h2>Sair do Sistema?</h2>
             <p>Sua sessão será encerrada e você será redirecionado para a tela de login!</p>
 
-
             <div class="botoes-container">
-                <a class="nav-link active" href="../SA-Ferrorama/public/login.html"
-                    style="color: red; font-weight: bold;">Confirmar</a>
-
+                <a class="nav-link active" href="./public/login.html">Confirmar</a>
                 <a class="nav-link" href="#" onclick="window.history.back()">Cancelar</a>
             </div>
-        </ul>
     </div>
 
 
@@ -165,9 +161,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
-</body>
-
-
 </body>
 
 </html>
