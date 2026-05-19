@@ -95,12 +95,3 @@ foto.jpg (nome vago)
  
 ---
  
-##  Resumo Rápido de Funções
- 
-| Pessoa | Função | Pasta Principal |
-|--------|--------|-----------------|
-| Eduardo | Líder + Backend | Servidor/Banco |
-| Hugo | Ajuda + Pesquisas| Testes + Revisao |
-| Guilherme | Frontend | `public/` + `style/` |
-| Luis | Código Geral | Tudo | 
- 
