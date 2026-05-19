@@ -89,14 +89,43 @@
         <p>Conteúdo do dashboard aqui</p>
     </div>
 
+
     <div id="cadastro" class="content">
         <h2>Cadastrar Sensores</h2>
-        <p>Conteúdo do cadastro aqui</p>
+
+<div class="container">
+        <form class="row g-3">
+
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">ID do Sensor</label>
+                <input type="text" class="form-control" id="inputEmail4" placeholder="ex: Sensor 01">
+            </div>
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Localização da Plataforma</label>
+                <input type="number" class="form-control" id="inputPassword4" placeholder="ex: Plataforma 1">
+            </div>
+
+            <div class="col-md-12">
+                <label for="inputPassword4" class="form-label">Tipo de Sensor</label>
+                <input type="number" class="form-control" id="inputPassword4" placeholder="ex: Temperatura">
+            </div>
+
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Endereço</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="ex: Rua Max Colin">
+            </div>
+
+
+            <div class="d-grid mt-3">
+                <button class="btn btn-primary" type="button">Cadastrar Sensor</button>
+            </div>
+        </form>
+    </div>
+
     </div>
 
     <div id="gerenciar" class="content">
         <h2>Gerenciar Sensores</h2>
-        <p>Conteúdo do gerenciamento aqui</p>
 
         <table class="table">
             <thead>
@@ -105,6 +134,7 @@
                     <th scope="col">Sensor</th>
                     <th scope="col">Localização</th>
                     <th scope="col">Tipo de Sensor</th>
+                    <th scope="col">Endereço</th>
                     <th scope="col">Status do Sensor</th>
                 </tr>
             </thead>
@@ -114,21 +144,27 @@
                     <td>Sensor 01</td>
                     <td>Plataforma 1</td>
                     <td>Temperatura</td>
+                    <td>Rua Urussanga</td>
                     <td>Ativo</td>
+
                 </tr>
                 <tr>
                     <th scope="row">2</th>
                     <td>Sensor 02</td>
                     <td>Plataforma 2</td>
                     <td>Movimento</td>
+                    <td>Rua Doutor João Colin</td>
                     <td>Ativo</td>
+
                 </tr>
                 <tr>
                     <th scope="row">3</th>
                     <td>Sensor 03</td>
                     <td>Plataforma 3</td>
                     <td>Umidade</td>
+                    <td>Rua Max Colin</td>
                     <td>Inativo</td>
+                    
                 </tr>
             </tbody>
         </table>
