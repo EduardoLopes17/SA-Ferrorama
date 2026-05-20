@@ -76,51 +76,119 @@
         </div>
         <br>
         <br>
-        <center><h2 class="H222"> Rotas de trajeto </h2>
+        <center>
+            <h2 class="H222"> ROTAS E TRAJETO </h2>
 
-        <div>
-            <center><img src="assets/img/trajeto trem.jpg" alt="">
-        </div>
+            <div>
+                <center><img src="assets/img/trajeto trem.jpg" alt="">
+            </div>
 
     </div>
 
     <div id="dashboard" class="content">
-        <h2>Dashboard</h2>
-        <p>Conteúdo do dashboard aqui</p>
+        <br>
+        <br>
+        <center><h2>DASHBOARD</h2>
+        <div class="container">
+
+            <div class="alert-bar">
+                <span class="alert-title">2 alertas ativos!</span>
+                <span class="alert-text">Sensor 001 offline, Trem TR-45 com atraso</span>
+            </div>
+
+            <div class="metrics-grid">
+                <div class="card">
+                    <div class="card-title">Trens ativos:</div>
+                    <div class="card-value text-red">8</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">Sensores online</div>
+                    <div class="card-value text-red">47</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">Taxa Sucesso</div>
+                    <div class="card-value text-red">98,5%</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">Trocar isso</div>
+                    <div class="card-value text-red">42min</div>
+                </div>
+            </div>
+
+            <div class="table-container">
+                <div class="table-title">Trens em operação</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="col-id">ID</th>
+                            <th class="col-rota">Rota</th>
+                            <th class="col-status">Status</th>
+                            <th class="col-vel">Velocidade</th>
+                            <th class="col-parada">Próxima parada</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="col-id">TR-2401</td>
+                            <td class="col-rota">São Paulo &rarr; Rio</td>
+                            <td class="col-status status-ok">Em operação</td>
+                            <td class="col-vel">120 km/h</td>
+                            <td class="col-parada">Santos <span class="text-light">- 15min</span></td>
+                        </tr>
+                        <tr>
+                            <td class="col-id">TR-2402</td>
+                            <td class="col-rota">Campinas &rarr; SP</td>
+                            <td class="col-status status-ok">Em operação</td>
+                            <td class="col-vel">95 km/h</td>
+                            <td class="col-parada">Jundiaí <span class="text-light">- 28min</span></td>
+                        </tr>
+                        <tr>
+                            <td class="col-id">TR-2403</td>
+                            <td class="col-rota">Campinas &rarr; SP</td>
+                            <td class="col-status status-delay">Atraso</td>
+                            <td class="col-vel">85 km/h</td>
+                            <td class="col-parada">Itu <span class="text-light">- 35min</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
     </div>
 
 
     <div id="cadastro" class="content">
         <h2>Cadastrar Sensores</h2>
 
-<div class="container">
-        <form class="row g-3">
+        <div class="container">
+            <form class="row g-3">
 
-            <div class="col-md-6">
-                <label for="inputEmail4" class="form-label">ID do Sensor</label>
-                <input type="text" class="form-control" id="inputEmail4" placeholder="ex: Sensor 01">
-            </div>
-            <div class="col-md-6">
-                <label for="inputPassword4" class="form-label">Localização da Plataforma</label>
-                <input type="text" class="form-control" id="inputPassword4" placeholder="ex: Plataforma 1">
-            </div>
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">ID do Sensor</label>
+                    <input type="text" class="form-control" id="inputEmail4" placeholder="ex: Sensor 01">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Localização da Plataforma</label>
+                    <input type="text" class="form-control" id="inputPassword4" placeholder="ex: Plataforma 1">
+                </div>
 
-            <div class="col-md-12">
-                <label for="inputPassword4" class="form-label">Tipo de Sensor</label>
-                <input type="text" class="form-control" id="inputPassword4" placeholder="ex: Temperatura">
-            </div>
+                <div class="col-md-12">
+                    <label for="inputPassword4" class="form-label">Tipo de Sensor</label>
+                    <input type="text" class="form-control" id="inputPassword4" placeholder="ex: Temperatura">
+                </div>
 
-            <div class="col-12">
-                <label for="inputAddress" class="form-label">Endereço</label>
-                <input type="text" class="form-control" id="inputAddress" placeholder="ex: Rua Max Colin">
-            </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Endereço</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="ex: Rua Max Colin">
+                </div>
 
 
-            <div class="d-grid mt-3">
-                <button class="btn btn-primary" type="button">Cadastrar Sensor</button>
-            </div>
-        </form>
-    </div>
+                <div class="d-grid mt-3">
+                    <button class="btn btn-primary" type="button">Cadastrar Sensor</button>
+                </div>
+            </form>
+        </div>
 
     </div>
 
@@ -164,7 +232,7 @@
                     <td>Umidade</td>
                     <td>Rua Max Colin</td>
                     <td>Inativo</td>
-                    
+
                 </tr>
             </tbody>
         </table>
