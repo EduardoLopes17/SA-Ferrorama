@@ -74,8 +74,6 @@ nav{
     border-radius: 30px;
 }
 
-
-/* Pagina 2 Abaixo */
 * {
     margin: 0;
     padding: 0;
@@ -149,7 +147,6 @@ nav{
     font-size: 0.9rem;
 }
 
-/* Pagina 3 Abaixo */
 
 #h13, #p13 {
     text-align: center;
@@ -171,7 +168,3 @@ nav{
 .content.active{
     display: block;
 }
-
-
-
-
