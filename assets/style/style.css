@@ -173,12 +173,30 @@ td {
 }
 
 
-.col-id { width: 15%; text-align: left; }
-.col-rota { width: 25%; text-align: left; }
-.col-status { width: 20%; text-align: center; }
-.col-vel { width: 18%; text-align: center; }
-.col-parada { width: 22%; text-align: right; }
+.col-id {
+     width: 15%; 
+     text-align: left; 
+}
 
+.col-rota { 
+    width: 25%; 
+    text-align: left; 
+}
+
+.col-status {
+     width: 20%; 
+     text-align: center; 
+}
+
+.col-vel { 
+    width: 18%; 
+    text-align: center; 
+}
+
+.col-parada { 
+    width: 22%; 
+    text-align: right; 
+}
 
 .status-ok {
     color: #1b721d; 
@@ -192,7 +210,6 @@ td {
     color: #555;
     font-size: 1rem;
 }
-
 
 .container-principal {
     display: flex;
